@@ -6,7 +6,7 @@
 # DIY hydrometric wing for measuring flow velocities 'H-HOPE current meter'
  
  
-The hydrometric wing "H-HOPE current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water velocity through the equation. H-HOPE current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE current meter are readily available. H-HOPE current meter can be powered eather by 9V battery, or by external micro USB cable. H-HOPE current meter can measure water velocity from 0.1 to 5m/s. 
+The hydrometric wing "H-HOPE current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water velocity through the equation. H-HOPE current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE current meter are readily available. H-HOPE current meter can be powered by 9V battery, or by external micro USB cable. H-HOPE current meter can measure water velocity from 0.1 to 5m/s. 
  
 
 
@@ -33,7 +33,7 @@ Figure. 3D exploded model of a H-HOPE current meter.</div>
 
 ## Material and tools used<a name="material"></a>
 
-The project was designed in a certain way, that the material and tools necessary to build this project is widely available. Most of the parts and tools are avaliable in local technical store or for example on online store Aliexpress. 
+The project was designed in a certain way, that the material and tools necessary to build this project is widely available. Most of the parts and tools are available in local technical store or for example on online store Aliexpress. 
 
 ### Material used for this project:
 
@@ -48,10 +48,10 @@ The project was designed in a certain way, that the material and tools necessary
 - 2m 3-core cable: https://www.aliexpress.com/item/1005002082473369.html
 - Pushbutton / toggle ON/OFF switch: https://www.aliexpress.com/item/1005004004236347.html
 - XH pin connectors: https://www.aliexpress.com/item/1005004267331222.html
-- 6x M2 screws (10mm lenght)
-- 3x M4 screws (30mm lenght)
+- 6x M2 screws (10mm length)
+- 3x M4 screws (30mm length)
 - 2x M5 screws with 
-- M8 screw (50mm lenght)
+- M8 screw (50mm length)
 - Epoxy glue
 - 9v battery
 - micro usb cable
@@ -85,7 +85,7 @@ Figure. Exploded model of the screw.</div>
  
 Figure. Exploded model of the enclosure with LCD screen and holder.</div>
 
-Source files (step file) for printing the H-HOPE current meter are avaliable on [Github](https://github.com/H-HOPE/DIY-Flow-meter/blob/7c3ee1f1fafccab5ecbd7b81c10c78a44afabfad/src/3D%20model/Flowmeter_assembly.stp).
+Source files (step file) for printing the H-HOPE current meter are available on [Github](https://github.com/H-HOPE/DIY-Flow-meter/blob/7c3ee1f1fafccab5ecbd7b81c10c78a44afabfad/src/3D%20model/Flowmeter_assembly.stp).
 
 <div align="center">
 <img src="./res/img (31).jpg" alt="drawing" width="500"/>
@@ -123,7 +123,7 @@ Hall sensor output is connected to the Arduino Uno inetrrupt. Arduino Uno has tw
 In this case hall sensor is attached to the INT0 pin (digital pin 2).
 Configure the interrupt settings using the attachInterrupt() function. This function takes three arguments: the interrupt number (in this case, 0 for INT0), the function to call when the interrupt is triggered (cnt), and the mode in which to trigger the interrupt (on FALLING EDGE).
 - In the loop section, from line 38, the code to calculate the water velocity from the screw rotation speed is written. The calculated water velocity is shown on the LCD screen.
-- Finnaly at the end of the program there is an interupt rutine, whis records the time when the magnet on the wing passes hall sensor.
+- Finally at the end of the program there is an interrupt routine, that records the time when the magnet on the wing passes hall sensor.
 
 <div align="center">
 <img src="./res/img (23).jpg" alt="drawing" width="300"/>
@@ -168,12 +168,12 @@ Figure. First bearing mount.</div>
 <div align="center">
 <img src="./res/img (17).jpg" alt="drawing" width="500"/>
  
-Figure. second bearing mount, with end cap.</div>
+Figure. Second bearing mount, with end cap.</div>
 
 <div align="center">
 <img src="./res/img (34).jpg" alt="drawing" width="500"/>
  
-Figure. Asembly of the bar mouting tight screw</div>
+Figure. Assembly of the bar mounting tight screw</div>
 
 <div align="center">
 <img src="./res/img (18).jpg" alt="drawing" width="500"/>
@@ -184,7 +184,7 @@ Next, place 1x3 mm magnet in the prefabricated hole in the screw and glue the ma
 <div align="center">
 <img src="./res/img (9).jpg" alt="drawing" width="500"/>
  
-Figure. Magnet assemply on the screw.</div>
+Figure. Magnet assembly on the screw.</div>
 
 
 We need to solder hall sensor to the cable. Hall sensor has three pins GND, VCC and Signal
@@ -196,7 +196,7 @@ Figure. Pinout of the SS443a Hall sensor.</div>
 
 
 
-Put the cable thorugh the screw holder and glue the hall sensor, with the Expoxy glue to the screw holder.
+Put the cable through the screw holder and glue the hall sensor, with the Epoxy glue to the screw holder.
 
 <div align="center">
 <img src="./res/img (36).jpg" alt="drawing" width="500"/>
@@ -210,7 +210,7 @@ Assembled Screw.
  
 Figure. Assembled Screw.</div>
 
-### Assembly of the H-HOPE current meter electronic.
+### Assembly of the H-HOPE current meter electronics.
 
 
 Mount the Arduino Uno in the enclosure, screw the micro USB module to the enclosure with two M2 10mm screws. Connect micro USB module to Arduino Uno (5V to 5V; GND to GND).
@@ -224,10 +224,10 @@ Connect hall sensor GND, VCC and OUT to the Arduino Uno
 <div align="center">
 <img src="./res/img (8).jpg" alt="drawing" width="500"/>
  
-Figure. Hall sensor connected to the Aruino Uno.</div>
+Figure. Hall sensor connected to the Arduino Uno.</div>
 
 
-Mount 16x2 LCD screen with 4 M2 10mm screws to the front of the enclosure. Connect the LCD screen to the Arduino, trough the I2C protocol.
+Mount 16x2 LCD screen with 4 M2 10mm screws to the front of the enclosure. Connect the LCD screen to the Arduino, through the I2C protocol.
 <div align="center">
 <img src="./res/img (22).jpg" alt="drawing" width="500"/>
  
@@ -249,16 +249,16 @@ Figure. External ON/OFF switch.</div>
 
 
 
-Use screws to assemble the lectronic enclosure of the H-HOPE current meter. 
+Use screws to assemble the electronics enclosure of the H-HOPE current meter. 
 <div align="center">
 <img src="./res/img (28).jpg" alt="drawing" width="500"/>
  
-Figure. Mouting screws.</div>
+Figure. Mounting screws.</div>
 
 
-### Holder for the H-HOPE current meter electronics (optinal)
+### Holder for the H-HOPE current meter electronics (optional)
 
-It is also possible to mount the H-HOPE current meter electronic with the help of holder to the stick. In that case you need to print and assemble the H-HOPE current meter holder. 
+It is also possible to mount the H-HOPE current meter electronics with the help of holder to the stick. In that case you need to print and assemble the H-HOPE current meter holder. 
 
 <div align="center">
 <img src="./res/img (1).jpg" alt="drawing" width="500"/>
@@ -268,21 +268,21 @@ Figure. Assembly of the holder for the H-HOPE current meter electronics.</div>
 
 ### Test hall sensor response.
 
-Osciloscope was used to test the output signal from the hall sensor
+Oscilloscope was used to test the output signal from the hall sensor
 
 <div align="center">
 <img src="./res/img (6).jpg" alt="drawing" width="500"/>
  
 Figure. Hall sensor test setup.</div>
 
-Hall sensor need pull-up resistor to operate properly. You can use external 10k pull-up resistor accross the Vcc and hall input pin. In our case we configured Aruino to use his internall pull-up resistor. Then we test the operation of the hall sensor with an osciloscope.
+Hall sensor need pull-up resistor to operate properly. You can use external 10k pull-up resistor across the Vcc and hall input pin. In our case we configured Arduino to use his internal pull-up resistor. Then we test the operation of the hall sensor with an oscilloscope.
 
 
 
 <div align="center">
 <img src="./res/img (1).BMP" alt="drawing" width="500"/>
  
-Figure. Hall sensor output signal on osciloscope.</div>
+Figure. Hall sensor output signal on oscilloscope.</div>
 
 
 ## Field test<a name="fieldtest"></a>
