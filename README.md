@@ -6,7 +6,7 @@
 # DIY hydrometric wing for measuring flow velocities 'H-HOPE current meter'
  
  
-The hydrometric wing "H-HOPE current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water speed through the equation. H-HOPE current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE current meter are readily available. H-HOPE current meter can be powered eather by 9V battery, or by external micro USB cable. H-HOPE current meter can measure water speed from 0.1 to 5m/s. 
+The hydrometric wing "H-HOPE current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water velocity through the equation. H-HOPE current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE current meter are readily available. H-HOPE current meter can be powered eather by 9V battery, or by external micro USB cable. H-HOPE current meter can measure water velocity from 0.1 to 5m/s. 
  
 
 
@@ -122,7 +122,7 @@ Key parts of the Arduino code:
 Hall sensor output is connected to the Arduino Uno inetrrupt. Arduino Uno has two external interrupt pins, INT0 and INT1, which are mapped to digital pins 2 and 3 respectively. Interrupts are signals that allow a microcontroller to pause its current execution and handle an event or task that has a higher priority. 
 In this case hall sensor is attached to the INT0 pin (digital pin 2).
 Configure the interrupt settings using the attachInterrupt() function. This function takes three arguments: the interrupt number (in this case, 0 for INT0), the function to call when the interrupt is triggered (cnt), and the mode in which to trigger the interrupt (on FALLING EDGE).
-- In the loop section, from line 38, the code to calculate the water speed from the screw rotation speed is written. The calculated water velocity is shown on the LCD screen.
+- In the loop section, from line 38, the code to calculate the water velocity from the screw rotation speed is written. The calculated water velocity is shown on the LCD screen.
 - Finnaly at the end of the program there is an interupt rutine, whis records the time when the magnet on the wing passes hall sensor.
 
 <div align="center">
@@ -287,20 +287,20 @@ Figure. Hall sensor output signal on osciloscope.</div>
 
 ## Field test<a name="fieldtest"></a>
 
-Now you can find a waterway and measure its speed with the H-HOPE current meter water speed sensor.
+Now you can find a waterway and measure its speed with the H-HOPE current meter water velocity sensor.
 
 
 <div align="center">
 <img src="./res/Field_1.jpg" alt="drawing" width="500"/>
  
  
-Figure. Image of the H-HOPE current meter water speed sensor in open channel
+Figure. Image of the H-HOPE current meter water velocity sensor in open channel
  
  <div align="center">
 <img src="./res/Field_2.jpg" alt="drawing" width="500"/>
   
   
-Figure. Measuring water speed with the H-HOPE current meter sensor.
+Figure. Measuring water velocity with the H-HOPE current meter sensor.
 
 
 &nbsp;
