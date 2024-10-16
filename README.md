@@ -3,10 +3,10 @@
 </div>
 
 
-# DIY hydrometric wing for measuring flow velocities 'H-HOPE current meter'
+# DIY water current meter for measuring flow velocities 'H-HOPE current meter'
  
  
-The hydrometric wing "H-HOPE current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water velocity through the equation. H-HOPE current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE current meter are readily available. H-HOPE current meter can be powered by 9V battery, or by external micro USB cable. H-HOPE current meter can measure water velocity from 0.1 to 5m/s. 
+The water current meter "H-HOPE current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water velocity through the equation. H-HOPE current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE current meter are readily available. H-HOPE current meter can be powered by 9V battery, or by external micro USB cable. H-HOPE current meter can measure water velocity from 0.1 to 5m/s. 
  
 
 
