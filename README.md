@@ -3,23 +3,23 @@
 </div>
 
 
-# DIY water current meter for measuring flow velocities 'H-HOPE current meter'
+# DIY water current meter for measuring flow velocities 'H-HOPE water current meter'
  
  
-The water current meter "H-HOPE current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water velocity through the equation. H-HOPE current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE current meter are readily available. H-HOPE current meter can be powered by 9V battery, or by external micro USB cable. H-HOPE current meter can measure water velocity from 0.1 to 5m/s. 
+The water current meter "H-HOPE water current meter" was designed and developed as part of a H-HOPE project (web site https://h-hope.eu/). H-HOPE water current meter measures water flow velocities on the principle of automatic recalculation of screw rotation frequencies in water velocity through the equation. H-HOPE water current meter has been designed to be produced using the DIY (Do-It-Yourself) principle. All parts used for the production of H-HOPE water current meter are readily available. H-HOPE water current meter can be powered by 9V battery, or by external micro USB cable. H-HOPE water current meter can measure water velocity from 0.1 to 5m/s. 
  
 
 
 <div align="center">
 <img src="./res/img2 (3).jpg" alt="drawing" width="500"/>
  
-Figure. H-HOPE current meter.</div>
+Figure. H-HOPE water current meter.</div>
 
 
 <div align="center">
 <img src="./res/img (33).jpg" alt="drawing" width="1000"/>
  
-Figure. 3D exploded model of a H-HOPE current meter.</div>
+Figure. 3D exploded model of a H-HOPE water current meter.</div>
 
 ## Table of content
 
@@ -65,11 +65,11 @@ The project was designed in a certain way, that the material and tools necessary
 - 3D printer
 - Set of Screwdrivers
 
-## 3D printing and model of the H-HOPE current meter<a name="3dmodel"></a>
+## 3D printing and model of the H-HOPE water current meter<a name="3dmodel"></a>
 
-We used Prusa MK3S 3D printer to print the H-HOPE current meter plastic parts. Chosen material was PETG.
+We used Prusa MK3S 3D printer to print the H-HOPE water current meter plastic parts. Chosen material was PETG.
 
-Below is the 3D exploded model of a H-HOPE current meter. H-HOPE current meter is made from two main parts. 
+Below is the 3D exploded model of a H-HOPE water current meter. H-HOPE water current meter is made from two main parts. 
 
 - assembly of a screw,
 - assembly of the enclosure with LCD screen and holder. 
@@ -85,19 +85,19 @@ Figure. Exploded model of the screw.</div>
  
 Figure. Exploded model of the enclosure with LCD screen and holder.</div>
 
-Source files (step file) for printing the H-HOPE current meter are available on [Github](https://github.com/H-HOPE/DIY-Flow-meter/blob/7c3ee1f1fafccab5ecbd7b81c10c78a44afabfad/src/3D%20model/Flowmeter_assembly.stp).
+Source files (step file) for printing the H-HOPE water current meter are available on [Github](https://github.com/H-HOPE/DIY-Flow-meter/blob/7c3ee1f1fafccab5ecbd7b81c10c78a44afabfad/src/3D%20model/Flowmeter_assembly.stp).
 
 <div align="center">
 <img src="./res/img (31).jpg" alt="drawing" width="500"/>
  
-Figure. Printing the H-HOPE current meter enclosure.</div>
+Figure. Printing the H-HOPE water current meter enclosure.</div>
 
 
 
 <div align="center">
 <img src="./res/img (15).jpg" alt="drawing" width="500"/>
  
-Figure. 3D printed parts for the H-HOPE current meter holder.</div>
+Figure. 3D printed parts for the H-HOPE water current meter holder.</div>
 
 
 
@@ -109,7 +109,7 @@ In this chapter the source code for the Arduino Uno microcontroller will be expl
 <div align="center">
 <img src="./res/img (21).jpg" alt="drawing" width="300"/>
  
-Figure. Arduino uno board is used for H-HOPE current meter electronics.</div>
+Figure. Arduino uno board is used for H-HOPE water current meter electronics.</div>
 
 Arduino code:
 https://github.com/H-HOPE/DIY_Flow_meter/blob/e5a896e44799b07652782b1dd13d3e7614e1950c/src/Arduino/H-HOPE_Hi-wing.ino#L1-L63
@@ -128,14 +128,14 @@ Configure the interrupt settings using the attachInterrupt() function. This func
 <div align="center">
 <img src="./res/img (23).jpg" alt="drawing" width="300"/>
  
-Figure. Arduino Uno microcontroller mounted in the H-HOPE current meter enclosure.</div>
+Figure. Arduino Uno microcontroller mounted in the H-HOPE water current meter enclosure.</div>
 
 
 ## Assembly and test<a name="assembly"></a>
 
-With all the printed parts ready and programmed Arduino, we can start the assembly of the H-HOPE current meter.
+With all the printed parts ready and programmed Arduino, we can start the assembly of the H-HOPE water current meter.
 
-3D exploded model of a H-HOPE current meter
+3D exploded model of a H-HOPE water current meter
 
 <div align="center">
 <img src="./src/3D model/Sestav_1.png" alt="drawing" width="800"/>
@@ -149,12 +149,12 @@ Figure. 3D exploded model of the enclosure.</div>
 
 
 
-### Enclosure for the H-HOPE current meter electronics
+### Enclosure for the H-HOPE water current meter electronics
 
 <div align="center">
 <img src="./res/img (25).jpg" alt="drawing" width="500"/>
  
-Figure. Enclosure for the H-HOPE current meter electronics.</div>
+Figure. Enclosure for the H-HOPE water current meter electronics.</div>
 
 Assembly of the screw:
 
@@ -210,7 +210,7 @@ Assembled Screw.
  
 Figure. Assembled Screw.</div>
 
-### Assembly of the H-HOPE current meter electronics.
+### Assembly of the H-HOPE water current meter electronics.
 
 
 Mount the Arduino Uno in the enclosure, screw the micro USB module to the enclosure with two M2 10mm screws. Connect micro USB module to Arduino Uno (5V to 5V; GND to GND).
@@ -241,7 +241,7 @@ Mount 9V battery connector, make small hole for wires. Connect 9v Battery holder
 Figure. 9V battery installation.</div>
 
 
-Make hole on the enclosure for the external ON/OFF switch to power on the H-HOPE current meter. Connect the switch in series with positive battery wire.
+Make hole on the enclosure for the external ON/OFF switch to power on the H-HOPE water current meter. Connect the switch in series with positive battery wire.
 <div align="center">
 <img src="./res/img (5).jpg" alt="drawing" width="500"/>
  
@@ -249,21 +249,21 @@ Figure. External ON/OFF switch.</div>
 
 
 
-Use screws to assemble the electronics enclosure of the H-HOPE current meter. 
+Use screws to assemble the electronics enclosure of the H-HOPE water current meter. 
 <div align="center">
 <img src="./res/img (28).jpg" alt="drawing" width="500"/>
  
 Figure. Mounting screws.</div>
 
 
-### Holder for the H-HOPE current meter electronics (optional)
+### Holder for the H-HOPE water current meter electronics (optional)
 
-It is also possible to mount the H-HOPE current meter electronics with the help of holder to the stick. In that case you need to print and assemble the H-HOPE current meter holder. 
+It is also possible to mount the H-HOPE water current meter electronics with the help of holder to the stick. In that case you need to print and assemble the H-HOPE water current meter holder. 
 
 <div align="center">
 <img src="./res/img (1).jpg" alt="drawing" width="500"/>
  
-Figure. Assembly of the holder for the H-HOPE current meter electronics.</div>
+Figure. Assembly of the holder for the H-HOPE water current meter electronics.</div>
 
 
 ### Test hall sensor response.
@@ -287,20 +287,20 @@ Figure. Hall sensor output signal on oscilloscope.</div>
 
 ## Field test<a name="fieldtest"></a>
 
-Now you can find a waterway and measure its speed with the H-HOPE current meter water velocity sensor.
+Now you can find a waterway and measure its speed with the H-HOPE water current meter, water velocity sensor.
 
 
 <div align="center">
 <img src="./res/Field_1.jpg" alt="drawing" width="500"/>
  
  
-Figure. Image of the H-HOPE current meter water velocity sensor in open channel
+Figure. Image of the H-HOPE water current meter water velocity sensor in open channel
  
  <div align="center">
 <img src="./res/Field_2.jpg" alt="drawing" width="500"/>
   
   
-Figure. Measuring water velocity with the H-HOPE current meter sensor.
+Figure. Measuring water velocity with the H-HOPE water current meter sensor.
 
 
 &nbsp;
