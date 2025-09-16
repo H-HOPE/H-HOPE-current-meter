@@ -85,7 +85,7 @@ Figure. Exploded model of the screw.</div>
  
 Figure. Exploded model of the enclosure with LCD screen and holder.</div>
 
-Source files (step file) for printing the H-HOPE water current meter are available on [Github](https://github.com/H-HOPE/DIY-Flow-meter/blob/7c3ee1f1fafccab5ecbd7b81c10c78a44afabfad/src/3D%20model/Flowmeter_assembly.stp).
+Source files (in STEP and STL format) for printing the H-HOPE water current meter are available on Github [STEP files](https://github.com/H-HOPE/H-HOPE-current-meter/tree/main/src/3D%20model/STEPfiles), [STLfiles](https://github.com/H-HOPE/H-HOPE-current-meter/tree/main/src/3D%20model/STLfiles).
 
 <div align="center">
 <img src="./res/img (31).jpg" alt="drawing" width="500"/>
