@@ -112,7 +112,7 @@ In this chapter the source code for the Arduino Uno microcontroller will be expl
 Figure. Arduino uno board is used for H-HOPE water current meter electronics.</div>
 
 Arduino code:
-https://github.com/H-HOPE/DIY_Flow_meter/blob/e5a896e44799b07652782b1dd13d3e7614e1950c/src/Arduino/H-HOPE_Hi-wing.ino#L1-L63
+[https://github.com/H-HOPE/DIY_Flow_meter/blob/e5a896e44799b07652782b1dd13d3e7614e1950c/src/Arduino/H-HOPE_Hi-wing.ino#L1-L63](https://github.com/H-HOPE/H-HOPE-current-meter/tree/main/src/Arduino)
 
 Key parts of the Arduino code:
 - First, we include libraries for LCD screen and I2C protocol. LCD screen library is also available [here](https://github.com/H-HOPE/DIY-Flow-meter/tree/main/src/Arduino/lib).
